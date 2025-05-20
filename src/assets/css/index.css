@@ -99,3 +99,108 @@ section {
     background-color: transparent;
     border: 0;
 }
+
+
+
+
+
+
+
+
+
+/* # CUSTOM CSS */
+
+/* #page-header */
+#page-header > .container > .row > .col-100 {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+
+#page-header #main-menu ul {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+}
+
+
+#page-header #main-menu ul li.active {
+    color: #0282F9;
+}
+
+
+
+/* #page-main */
+
+#page-main > #main-content {
+    background-color: #1C1C1C;
+    color: #fff;
+}
+
+#page-main > #merchandise {
+    background-color: #0282F9;
+    color: #fff;
+}
+#page-main > #merchandise .merchandise-box {
+    height: 100%;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+}
+
+#page-main > #merchandise .merchandise-box img {
+    max-height: 3rem;
+    max-width: 3rem;
+}
+
+
+
+
+/* #page-footer */
+#page-footer #footer-social > .container > .row > .col-100,
+#page-footer #footer-social > .container > .row > .col-100 > .social-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    /* Per social-container */
+    gap: 1rem;
+}
+
+
+#footer-content {
+    background-image: url(/img/footer-bg.jpg);
+    background-position: top center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+#footer-content h5 {
+    color: #fff;
+}
+#footer-content nav {
+    color: #aaa;
+}
+.logo-big {
+    margin: 0 auto;
+    /* Solo per debg */
+    max-height: 15px;
+}
+
+
+
+#footer-social {
+    background-color: #303030;
+}
+#footer-social button.signUp {
+    padding: .33rem .75rem;
+    border: 1px solid #0282F9;
+    background-color: transparent;
+    color: #fff;
+}
+#footer-social .social-container h5 {
+    color: #0282F9;
+}
