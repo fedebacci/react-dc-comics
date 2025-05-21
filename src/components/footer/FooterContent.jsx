@@ -20,7 +20,7 @@ export default function FooterContent () {
                                                 </a>
                                             </li>
                                             <li>
-                                                <a href="#">
+                                                <a className="active" href="#">
                                                     Comics
                                                 </a>
                                             </li>
@@ -140,7 +140,7 @@ export default function FooterContent () {
                                     <nav>
                                         <ul>
                                             <li>
-                                                <a className="active" href="#">
+                                                <a href="#">
                                                     DC
                                                 </a>
                                             </li>

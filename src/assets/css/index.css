@@ -3,6 +3,8 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+
+    font-size: 14px;
 }
 body {
     font-family: 'Open Sans', sans-serif;
@@ -138,15 +140,12 @@ section {
 #page-header #main-menu ul {
     display: flex;
     justify-content: center;
-    /* ! TEST */
-    /* * Invece di farlo tramite gap lo faccio tramite padding degli anchor element */
-    /* gap: 1.25rem; */
-
+}
+#page-header #main-menu ul a {
     font-weight: bold;
     font-size: .75rem;
-    color: #333;
+    color: #555;
 }
-
 
 #page-header #main-menu ul li {
     display: grid;
@@ -188,7 +187,8 @@ section {
 
     display: flex;
     align-items: center;
-    justify-content: center;
+    /* todo: decidere se e come allineare */
+    /* justify-content: center; */
     gap: .75rem;
 }
 
@@ -277,7 +277,11 @@ section {
     font-size: 1.1rem;
     color: #0282F9;
 }
-
+#footer-social button.signUp,
+#footer-social button.followUs {
+    font-weight: bold;
+    font-size: .9rem;
+}
 
 
 
@@ -297,6 +301,9 @@ button {
 
 /* # TIPOGRAPHY */
 
+h2 {
+    font-size: 1.75rem;
+}
 h5 {
     /* font-size: 1.15rem; MASSIMO */
     font-size: 1.1rem;
@@ -310,13 +317,15 @@ h5 {
 }
 
 #page-footer #footer-content ul {
-    font-weight: light;
-    font-size: .75rem;
-
     margin-bottom: .85rem;
 }
 #page-footer #footer-content ul li {
     margin-bottom: .25rem;
+}
+#page-footer #footer-content ul li a {
+    font-weight: light;
+    font-size: .75rem;
+
 }
 
 
