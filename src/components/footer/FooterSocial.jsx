@@ -1,4 +1,4 @@
-export default function Footer () {
+export default function FooterSocial () {
     return (
         <section id="footer-social">
             <div className="container">
