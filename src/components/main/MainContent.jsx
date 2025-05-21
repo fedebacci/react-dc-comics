@@ -10,7 +10,7 @@ export default function MainContent () {
                             &rarr; Content goes here &larr;
                         </h2> */}
 
-                        <Alert type="info" text="Il prossimo numero di Superman è in arrivo!" />
+                        <Alert type="info" text="Il prossimo numero di Superman Arriverà dopo Natale!" />
                         <Alert type="success">
                             <strong>
                                 Il prossimo numero di Batman è in arrivo!
@@ -19,6 +19,7 @@ export default function MainContent () {
                             <a href="#">
                                 Clicca qui
                             </a>
+                            {/* &nbsp; */}
                             {" "}
                             per prenotarlo!
                         </Alert>
