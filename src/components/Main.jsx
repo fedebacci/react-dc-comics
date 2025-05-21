@@ -7,11 +7,16 @@ export default function Main () {
         <main id="page-main">
             <MainContent />
             <Merchandise />
-            <Alert type="info" text="My alert" />
-            {/* <Alert type="info" />
-            <Alert text="My alert" />
+            <Alert type="info" text="My alert text" />
+            <Alert type="info">
+                <strong>
+                    My alert text
+                </strong>
+            </Alert>
+            <Alert text="My alert text" />
+            <Alert type="info" />
             <Alert type="" text="" />
-            <Alert /> */}
+            <Alert />
         </main>
     );
 }
