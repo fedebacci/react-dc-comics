@@ -1,5 +1,6 @@
 export default function MainContent () {
-return  <section id="main-content">
+    return  (
+        <section id="main-content">
             <div className="container">
                 <div className="row">
                     <div className="col-100">
@@ -10,4 +11,6 @@ return  <section id="main-content">
                 </div>
             </div>
         </section>
+
+    );
 }

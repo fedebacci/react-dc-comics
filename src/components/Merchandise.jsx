@@ -1,5 +1,6 @@
 export default function Main () {
-    return <section id="merchandise">
+    return (
+        <section id="merchandise">
             <div className="container">
                 <div className="row">
                     <div className="col-1-5">
@@ -35,4 +36,5 @@ export default function Main () {
                 </div>
             </div>
         </section>
+    );
 }
