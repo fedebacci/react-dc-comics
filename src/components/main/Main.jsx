@@ -7,7 +7,9 @@ export default function Main () {
         <main id="page-main">
             <MainContent />
             <Merchandise />
-            <div className="container" style={{paddingTop: '1rem', paddingBottom: '1rem'}}>
+
+
+            {/* <div className="container" style={{paddingTop: '1rem', paddingBottom: '1rem'}}>
 
                 <Alert type="info" text="Il prossimo numero di Superman è in arrivo!" />
                 <Alert type="success">
@@ -27,7 +29,10 @@ export default function Main () {
                 <Alert type="" text="" />
                 <Alert />
 
-            </div>
+            </div> */}
+
+
+
         </main>
     );
 }
