@@ -6,9 +6,9 @@ export default function MainContent () {
             <div className="container">
                 <div className="row">
                     <div className="col-100">
-                        {/* <h2>
+                        <h2 style={{textAlign: 'center',marginBottom: '2rem'}}>
                             &rarr; Content goes here &larr;
-                        </h2> */}
+                        </h2>
 
                         <Alert type="info" text="Il prossimo numero di Superman Arriverà dopo Natale!" />
                         <Alert type="success">
@@ -25,9 +25,9 @@ export default function MainContent () {
                         </Alert>
                         <Alert text="Gli sconti su Wonder Woman stanno per terminare!" />
 
-                        <Alert type="warning" />
+                        {/* <Alert type="warning" />
                         <Alert type="" text="" />
-                        <Alert />
+                        <Alert /> */}
                     </div>
                 </div>
             </div>
