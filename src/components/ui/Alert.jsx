@@ -8,10 +8,8 @@ export default function Alert ({ type, text, children }) {
     }
 
     return (
-        <div className="container">
-            <div className={`alert alert-${type}`}>
-                {text}
-            </div>
+        <div className={`alert alert-${type}`}>
+            {text}
         </div>
     );
 }

@@ -340,8 +340,12 @@ h5 {
     border-radius: 1rem;
     padding: 1rem;
 }
-
-.alert-info {
+.alert a {
+    text-decoration: underline;
+    font-weight: bolder;
+}
+/* * MIEI COLORI */
+/* .alert-info {
     background-color: rgb(200, 200, 255);
     color: rgb(0, 0, 146);
 }
@@ -356,4 +360,44 @@ h5 {
 .alert-success {
     background-color: rgb(150, 255, 150);
     color: rgb(0, 83, 0);
+} */
+
+/* * PRESI DA BOOTSTRAP 5.3 */
+.alert-info {
+    color: #055160;
+    background-color: #cff4fc;
+    border-color: #9eeaf9;
+}
+.alert-info a {
+    color: #055160;
+}
+.alert-warning {
+    color: #664d03;
+    background-color: #fff3cd;
+    border-color: #ffe69c;
+}
+.alert-warning a {
+    color: #664d03;
+}
+.alert-danger {
+    color: #58151c;
+    background-color: #f8d7da;
+    border-color: #f1aeb5;
+}
+.alert-danger a {
+    color: #58151c;
+}
+
+.alert-success {
+    color: #0a3622;
+    background-color: #d1e7dd;
+    border-color: #a3cfbb;
+}
+.alert-success a {
+    color: #0a3622;
+}
+
+/* ! DEBUG */
+.alert + .alert {
+    margin-top: 1rem;
 }

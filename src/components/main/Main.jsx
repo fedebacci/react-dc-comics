@@ -7,16 +7,27 @@ export default function Main () {
         <main id="page-main">
             <MainContent />
             <Merchandise />
-            {/* <Alert type="info" text="My alert text" />
-            <Alert type="info">
-                <strong>
-                    My alert text
-                </strong>
-            </Alert>
-            <Alert text="My alert text" />
-            <Alert type="info" />
-            <Alert type="" text="" />
-            <Alert /> */}
+            <div className="container" style={{paddingTop: '1rem', paddingBottom: '1rem'}}>
+
+                <Alert type="info" text="Il prossimo numero di Superman è in arrivo!" />
+                <Alert type="success">
+                    <strong>
+                        Il prossimo numero di Batman è in arrivo!
+                    </strong>
+                    <br />
+                    <a href="#">
+                        Clicca qui
+                    </a>
+                    {" "}
+                    per prenotarlo!
+                </Alert>
+                <Alert text="Gli sconti su Acquaman stanno per terminare!" />
+
+                <Alert type="warning" />
+                <Alert type="" text="" />
+                <Alert />
+
+            </div>
         </main>
     );
 }
