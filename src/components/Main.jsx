@@ -17,31 +17,31 @@ export default function Main () {
                     <div className="col-1-5">
                         <div className="merchandise-box">
                             <img src="/img/buy-comics-digital-comics.png" alt="buy-comics-digital-comics" />
-                            DIGITAL COMICS
+                            <span>DIGITAL COMICS</span>
                         </div>
                     </div>
                     <div className="col-1-5">
                         <div className="merchandise-box">
                             <img src="/img/buy-comics-merchandise.png" alt="buy-comics-merchandise" />
-                            DC MERCHANDISE
+                            <span>DC MERCHANDISE</span>
                         </div>
                     </div>
                     <div className="col-1-5">
                         <div className="merchandise-box">
                             <img src="/img/buy-comics-subscriptions.png" alt="buy-comics-subscriptions" />
-                            SUBSCRIPTION
+                            <span>SUBSCRIPTION</span>
                         </div>
                     </div>
                     <div className="col-1-5">
                         <div className="merchandise-box">
                             <img src="/img/buy-comics-shop-locator.png" alt="buy-comics-shop-locator" />
-                            COIC SHOP LOCATOR
+                            <span>COMIC SHOP LOCATOR</span>
                         </div>
                     </div>
                     <div className="col-1-5">
                         <div className="merchandise-box">
                             <img src="/img/buy-dc-power-visa.svg" alt="buy-dc-power-visa" />
-                            DC POWER VISA
+                            <span>DC POWER VISA</span>
                         </div>
                     </div>
                 </div>

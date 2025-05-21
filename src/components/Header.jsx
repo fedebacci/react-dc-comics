@@ -3,11 +3,11 @@ export default function Header () {
         <div className="container">
             <div className="row">
                 <div className="col-100">
-                    <figure>
+                    <figure id="header-logo">
                         <img src="/img/dc-logo.png" alt="DC Logo" className="logo" />
                     </figure>
-                    <nav id="main-menu">
-                        <ul>
+                    <nav id="main-menu" className="h-100">
+                        <ul className="h-100">
                             <li>
                                 <a href="#">
                                     CHARACTERS
