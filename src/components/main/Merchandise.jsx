@@ -1,5 +1,5 @@
 import MerchandiseBox from "./MerchandiseBox";
-import merchandiseBoxesData from "../../assets/js/merchandiseBoxesData";
+import merchandiseBoxesData from "../../assets/js/data/merchandiseBoxesData";
 
 export default function Merchandise () {
     return (
