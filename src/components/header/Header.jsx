@@ -9,7 +9,9 @@ export default function Header () {
                 <div className="row">
                     <div className="col-100">
                         <figure id="header-logo">
-                            <img src="/img/dc-logo.png" alt="DC Logo" className="logo" />
+                            <a href="/">
+                                <img src="/img/dc-logo.png" alt="DC Logo" className="logo" />
+                            </a>
                         </figure>
                         <nav id="main-menu" className="h-100">
                             <ul className="h-100">

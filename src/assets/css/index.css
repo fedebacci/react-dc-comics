@@ -4,7 +4,7 @@
     padding: 0;
     box-sizing: border-box;
 
-    font-size: 14px;
+    font-size: 13px;
 }
 body {
     font-family: 'Open Sans', sans-serif;
@@ -46,7 +46,8 @@ section {
     padding: calc(2 * var(--col-spacing)) 0;
 }
 .container {
-    max-width: 1200px;
+    /* max-width: 1200px; */
+    max-width: 900px;
     margin: 0 auto;
 
     padding: 0 1rem;
@@ -134,7 +135,7 @@ section {
     padding: 1.25rem 0;
 }
 #page-header #header-logo img {
-    max-height: 50px;
+    max-height: 55px;
 }
 
 #page-header #main-menu ul {
@@ -143,7 +144,6 @@ section {
 }
 #page-header #main-menu ul a {
     font-weight: bold;
-    font-size: .75rem;
     color: #555;
 }
 
@@ -167,6 +167,8 @@ section {
     place-items: center;
 
     padding: 0 .625rem;
+
+    font-size: .66rem;
 }
 
 
@@ -197,7 +199,7 @@ section {
     max-width: 3rem;
 }
 #page-main > #merchandise .merchandise-box span {
-    font-size: .85rem;
+    font-size: .8rem;
 }
 
 
@@ -231,6 +233,10 @@ section {
 }
 #footer-content nav {
     color: #aaa;
+}
+#footer-content nav li {
+    line-height: 1;
+    margin-bottom: .25rem;
 }
 #footer-content nav a.active,
 #footer-content nav a:hover {
@@ -267,7 +273,8 @@ section {
     background-color: transparent;
 
     /* font-size COME PER h5 */
-    font-size: 1.1rem;
+    /* font-size: 1.1rem; */
+    font-size: 1rem;
     color: #fff;
 }
 #footer-social button.followUs {
@@ -276,13 +283,17 @@ section {
     border: 0;
 
     /* font-size COME PER h5 */
-    font-size: 1.1rem;
+    /* font-size: 1.1rem; */
+    font-size: 1rem;
     color: #0282F9;
 }
 #footer-social button.signUp,
 #footer-social button.followUs {
     font-weight: bold;
     font-size: .9rem;
+}
+#footer-social img.social-icon {
+    max-height: 2rem;
 }
 
 
@@ -308,7 +319,8 @@ h2 {
 }
 h5 {
     /* font-size: 1.15rem; MASSIMO */
-    font-size: 1.1rem;
+    /* font-size: 1.1rem; */
+    font-size: 1rem;
 }
 
 
