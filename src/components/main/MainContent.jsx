@@ -15,7 +15,7 @@ export default function MainContent ({ comicsData }) {
 
                         <div className="col-100">
 
-                            <Alert type="info" text="Il prossimo numero di Superman Arriverà dopo Natale!" />
+                            {/* <Alert type="info" text="Il prossimo numero di Superman Arriverà dopo Natale!" />
                             <Alert type="success">
                                 <strong>
                                     Il prossimo numero di Batman è in arrivo!
@@ -24,11 +24,10 @@ export default function MainContent ({ comicsData }) {
                                 <a href="#">
                                     Clicca qui
                                 </a>
-                                {/* &nbsp; */}
                                 {" "}
                                 per prenotarlo!
                             </Alert>
-                            <Alert text="Gli sconti su Wonder Woman stanno per terminare!" />
+                            <Alert text="Gli sconti su Wonder Woman stanno per terminare!" /> */}
 
                             {/* <Alert type="warning" />
                             <Alert type="" text="" />

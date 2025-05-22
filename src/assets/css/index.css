@@ -175,9 +175,36 @@ section {
 
 /* #page-main */
 
+.jumbotron {
+    max-height: 40vh;
+    overflow: hidden;
+}
+.jumbotron img {
+    object-fit: cover;
+    object-position: center;
+}
+
 #page-main > #main-content {
     background-color: #1C1C1C;
     color: #fff;
+
+    /* Allineamento del tag sopra la lista dei comics */
+    position: relative;
+}
+#page-main > #main-content .comics-list-title {
+    background-color: #0282F9;
+    font-weight: bold;
+    padding: .75rem 1.5rem;
+
+    /* Allineamento del tag sopra la lista dei comics */
+    position: absolute;
+    bottom: 100%;
+    transform: translateY(50%);
+}
+
+#page-main > #main-content .comics-list figure {
+    aspect-ratio: 1/1;
+    overflow: hidden;
 }
 
 #page-main > #merchandise {
