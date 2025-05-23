@@ -7,10 +7,10 @@ export default function Merchandise () {
             <div className="container">
                 <div className="row">
                     {
-                        merchandiseBoxesData.map((boxData, i) => {
+                        merchandiseBoxesData.map(boxData => {
                             return (
                                 <div className="col-1-5">
-                                    <MerchandiseBox boxData={boxData} key={i} />
+                                    <MerchandiseBox boxData={boxData} key={boxData.id} />
                                 </div>
                             );
                         })

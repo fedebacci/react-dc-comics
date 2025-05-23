@@ -10,7 +10,7 @@ export default function FooterSocial ({ footerSocialData }) {
                         {
                             footerSocialData.buttons.map(button => {
                                 return (
-                                    <FooterSocialButton buttonData={button} />
+                                    <FooterSocialButton buttonData={button} key={button.id} />
                                 );
                             })
                         }
@@ -20,7 +20,7 @@ export default function FooterSocial ({ footerSocialData }) {
                             {
                                 footerSocialData.links.map(link => {
                                     return (
-                                        <FooterSocialLink linkData={link} />
+                                        <FooterSocialLink linkData={link} key={link.id} />
                                     );
                                 })
                             }
