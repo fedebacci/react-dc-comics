@@ -122,6 +122,7 @@ section {
 #page-header {
     position: sticky;
     top: 0;
+    z-index: 1;
     background-color: #fff;
     box-shadow: 0px 0px 5px rgba(0,0,0,0.33);
 }
@@ -131,10 +132,17 @@ section {
     justify-content: space-between;
 }
 
-#page-header #header-logo {
+/* #page-header .logo-container {
     padding: 1.25rem 0;
 }
-#page-header #header-logo img {
+#page-header .logo-container img {
+    max-height: 55px;
+} */
+/* todo: Se quelle sotto funzionano cancellare quelle sopra e spostare quelle sotto in stile generale */
+.logo-container {
+    padding: 1.25rem 0;
+}
+.logo-container img {
     max-height: 55px;
 }
 
@@ -194,7 +202,7 @@ section {
 #page-main > #main-content .comics-list-title {
     background-color: #0282F9;
     font-weight: bold;
-    padding: .75rem 1.5rem;
+    padding: .5rem 1.5rem;
 
     /* Allineamento del tag sopra la lista dei comics */
     position: absolute;
@@ -205,6 +213,12 @@ section {
 #page-main > #main-content .comics-list figure {
     aspect-ratio: 1/1;
     overflow: hidden;
+
+    margin-bottom: .5rem;
+}
+#page-main > #main-content .comics-list .comic-series {
+    font-size: .75rem;
+    line-height: normal;
 }
 
 #page-main > #merchandise {
@@ -265,11 +279,11 @@ section {
     line-height: 1;
     margin-bottom: .25rem;
 }
-#footer-content nav a.active,
-#footer-content nav a:hover {
+#footer-content nav li.active,
+#footer-content nav li:hover {
     color: #ccc;
 }
-#footer-content nav a.active {
+#footer-content nav li.active {
     font-weight: bold;
 }
 .logo-big-container {
